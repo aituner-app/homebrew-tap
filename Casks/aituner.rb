@@ -1,10 +1,10 @@
 cask "aituner" do
   version "0.0.1"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  sha256 "c9fb2b14d0c691e67b6d4d0842413d59e9857fd8f811eededa0e63748b80d5a2"
 
   url "https://github.com/aituner-app/releases/releases/download/v#{version}/aituner-#{version}.zip"
   name "aituner"
-  desc "Benchmark local AI on Apple Silicon Macs and find the models that fit"
+  desc "Benchmark Apple Silicon Macs for local AI"
   homepage "https://aituner.app/"
 
   livecheck do
@@ -24,12 +24,11 @@ cask "aituner" do
         "ai.aituner.wiredlimit",
       ],
       trash:     [
-        "~/Library/Application Support/ai.aituner.app",
+        "~/.config/aituner",
         "~/Library/Application Support/aituner",
         "~/Library/Caches/ai.aituner.app",
         "~/Library/HTTPStorages/ai.aituner.app",
         "~/Library/Preferences/ai.aituner.app.plist",
-        "~/Library/Saved Application State/ai.aituner.app.savedState",
         "~/Library/WebKit/ai.aituner.app",
       ]
 end
