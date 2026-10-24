@@ -1,6 +1,6 @@
 cask "aituner" do
-  version "0.2.0"
-  sha256 "079b24b52c072281bef7dcb18fd22215a167873f780ea0ec23f4b3c2cbdd6f62"
+  version "0.3.0"
+  sha256 "5f315ad5837e0cc360afa877ae1abfd454ef7a3292a99a90e7a8b264122cd09c"
 
   url "https://github.com/aituner-app/releases/releases/download/v#{version}/aituner-#{version}.zip"
   name "aituner"
